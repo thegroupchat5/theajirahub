@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ajira Hub - Mentors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f8fc;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #003366;
+    }
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #003366;
+      font-weight: 500;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #003366;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .mentors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .mentor-card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .mentor-card:hover {
+      transform: translateY(-5px);
+    }
+    .mentor-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+    .mentor-name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #003366;
+    }
+    .mentor-expertise {
+      color: #007acc;
+      font-size: 0.95rem;
+      margin: 5px 0;
+    }
+    .mentor-bio {
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.5;
+    }
+    footer {
+      margin-top: 60px;
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ajira Hub</h1>
+    <nav>
+      <a href="pag1.html">Home</a>
+      <a href="aboutus2.html">About Us</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="mentors.html">Mentors</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Meet Our Mentors</h2>
+    <div class="mentors-grid">
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=3" alt="Mentor 1" />
+        <div class="mentor-name">Grace Niyonsaba</div>
+        <div class="mentor-expertise">Agribusiness Expert</div>
+        <div class="mentor-bio">Grace guides young people in starting profitable agricultural ventures in East Africa.</div>
+      </div>
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=10" alt="Mentor 2" />
+        <div class="mentor-name">James Kariuki</div>
+        <div class="mentor-expertise">Tourism Consultant</div>
+        <div class="mentor-bio">James helps youth explore eco-tourism careers and sustainable travel projects.</div>
+      </div>
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=18" alt="Mentor 3" />
+        <div class="mentor-name">Linda Abebe</div>
+        <div class="mentor-expertise">Business Development</div>
+        <div class="mentor-bio">Linda supports startups with training, strategy, and access to funding networks.</div>
+      </div>
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=25" alt="Mentor 4" />
+        <div class="mentor-name">Samuel Oketch</div>
+        <div class="mentor-expertise">Digital Entrepreneurship</div>
+        <div class="mentor-bio">Samuel helps youth launch scalable digital businesses that solve local problems.</div>
+      </div>
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=33" alt="Mentor 5" />
+        <div class="mentor-name">Angela Mutesi</div>
+        <div class="mentor-expertise">Social Innovation</div>
+        <div class="mentor-bio">Angela empowers young leaders to build socially impactful startups in rural areas.</div>
+      </div>
+      <div class="mentor-card">
+        <img src="https://i.pravatar.cc/100?img=40" alt="Mentor 6" />
+        <div class="mentor-name">David Mugisha</div>
+        <div class="mentor-expertise">Career Coaching</div>
+        <div class="mentor-bio">David provides 1-on-1 career support and life planning for emerging professionals.</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ajira Hub | Empowering Youth through Mentorship
+  </footer>
+
+</body>
+</html>
